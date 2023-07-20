@@ -19,7 +19,7 @@ export const useCounter = (initialValue = 10) => {
     };
 
     const reset = () => {
-        setCounter(initialValue); //el set...setea el valo del counter con lo que le pasemos como parametro
+        setCounter(initialValue); //el set...setea el valor del counter con lo que le pasemos como parametro
     };
 
     return {
