@@ -9,3 +9,31 @@ button {
 a {
     margin-left: 5px;
 }
+
+section {
+    padding: 30px;
+}
+
+.panel-dark {
+    background-color: rgb(59, 59, 59);
+}
+.button-dark {
+    background-color: black;
+    color: antiquewhite;
+}
+
+h1.dark {
+    color: antiquewhite ;
+}
+
+.input-dark .MuiInputBase-root {
+    background-color: antiquewhite;
+}
+
+.MuiFormHelperText-root.texto-dark {
+    color: antiquewhite;
+}
+
+.MuiFormHelperText-root.texto-light {
+    color: rgb(59, 59, 59);
+}

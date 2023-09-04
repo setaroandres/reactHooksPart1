@@ -3,7 +3,7 @@ import { UserContext } from "./context/UserContext";
 
 export const LoginPage = () => {
 
-    const {user, setUser} = useContext(UserContext);//Commo parametro le tengo que decir que sontext queremos usar, en este caso el UserContext
+    const {user, setUser} = useContext(UserContext);//Commo parametro le tengo que decir que context queremos usar, en este caso el UserContext
 
     return (
       <>
